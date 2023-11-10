@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 body{
-    background-image:url("./image.png");
+    background-image:url("./image1.avif");
     background-size:cover;
     background-repeat:no-repeat;
 }
-tr{
-    background-color:white;
+tr,.card{
+    background-color: whitesmoke;
 }

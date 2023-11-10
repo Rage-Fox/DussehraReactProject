@@ -7,7 +7,6 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import BooksTable from '../components/home/BooksTable';
 import BooksCard from '../components/home/BooksCard';
-
 const Home = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -44,9 +43,9 @@ const Home = () => {
         </button>
       </div>
       <div className='flex justify-between items-center'>
-        <h1 className='text-3xl my-8 text-orange-600'>Book Store CRUD Management</h1>
+        <h1 className='text-4xl my-8'>Book Store CRUD Management</h1>
         <Link to='/books/create'>
-          <MdOutlineAddBox className=' text-4xl text-teal-400' />
+          <MdOutlineAddBox className='text-5xl text-orange-500' />
         </Link>
       </div>
       {loading ? (
